@@ -793,7 +793,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .hero__title {
-    width: 696px;
+    max-width: 696px;
     height: 120px;
     font-size: 44px;
     line-height: 1.36;
@@ -1200,9 +1200,13 @@ img {
   }
 }
 
+.footer-nav {
+  margin-bottom: 60px;
+}
 @media screen and (min-width: 1200px) {
   .footer-nav {
     margin-right: 70px;
+    margin-bottom: 0;
   }
 }
 
